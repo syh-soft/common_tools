@@ -10,6 +10,11 @@ import java.util.Random;
  */
 public class RandomGroup {
 
+    /**
+     *
+     * @param nums 人数
+     * @param n 小组数
+     */
     public static void getRandomGroup(int nums,int n){
         if(nums%n != 0||nums==0||n==0){
             System.out.println("人数不足");
